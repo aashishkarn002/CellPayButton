@@ -10,6 +10,36 @@
 		1852D6C624D2B1190058AE0E /* CellPayButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1852D6BC24D2B1190058AE0E /* CellPayButton.framework */; };
 		1852D6CB24D2B1190058AE0E /* CellPayButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6CA24D2B1190058AE0E /* CellPayButtonTests.swift */; };
 		1852D6CD24D2B1190058AE0E /* CellPayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1852D6BF24D2B1190058AE0E /* CellPayButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1852D6D924D2B1BF0058AE0E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6D824D2B1BF0058AE0E /* APIClient.swift */; };
+		1852D6DB24D2B1E30058AE0E /* APICalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6DA24D2B1E30058AE0E /* APICalling.swift */; };
+		1852D6DD24D2B2090058AE0E /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6DC24D2B2090058AE0E /* Webservices.swift */; };
+		1852D6DF24D2B2270058AE0E /* CellPayMessageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6DE24D2B2270058AE0E /* CellPayMessageError.swift */; };
+		1852D6E124D2B2430058AE0E /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6E024D2B2430058AE0E /* UserInfo.swift */; };
+		1852D6E324D2B2650058AE0E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6E224D2B2650058AE0E /* LoginResponse.swift */; };
+		1852D6E524D2B2760058AE0E /* CellPayArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6E424D2B2760058AE0E /* CellPayArguments.swift */; };
+		1852D6E724D2B2920058AE0E /* CellPayBankAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6E624D2B2920058AE0E /* CellPayBankAccountResponse.swift */; };
+		1852D6E924D2B2A60058AE0E /* ConfirmPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6E824D2B2A60058AE0E /* ConfirmPaymentResponse.swift */; };
+		1852D6EB24D2B2B60058AE0E /* BasePaymentSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6EA24D2B2B60058AE0E /* BasePaymentSP.swift */; };
+		1852D6ED24D2B2C60058AE0E /* PayMerchantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6EC24D2B2C60058AE0E /* PayMerchantResponse.swift */; };
+		1852D6EF24D2B2D60058AE0E /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6EE24D2B2D60058AE0E /* FloatingLabelTextField.swift */; };
+		1852D6F124D2B2E60058AE0E /* StringContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6F024D2B2E60058AE0E /* StringContants.swift */; };
+		1852D6F324D2B2F30058AE0E /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6F224D2B2F30058AE0E /* Enum.swift */; };
+		1852D6F524D2B3010058AE0E /* Luminous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6F424D2B3010058AE0E /* Luminous.swift */; };
+		1852D6F724D2B30C0058AE0E /* LuminousNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6F624D2B30C0058AE0E /* LuminousNetwork.swift */; };
+		1852D6F924D2B3180058AE0E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6F824D2B3180058AE0E /* Reachability.swift */; };
+		1852D6FB24D2B31F0058AE0E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6FA24D2B31F0058AE0E /* APIError.swift */; };
+		1852D6FD24D2B3290058AE0E /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6FC24D2B3290058AE0E /* APIUtils.swift */; };
+		1852D6FF24D2B3390058AE0E /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D6FE24D2B3390058AE0E /* DataExtensions.swift */; };
+		1852D70124D2B3430058AE0E /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70024D2B3430058AE0E /* EncodableExtensions.swift */; };
+		1852D70324D2B34E0058AE0E /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70224D2B34E0058AE0E /* HttpMethod.swift */; };
+		1852D70524D2B3570058AE0E /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70424D2B3570058AE0E /* HTTPHeader.swift */; };
+		1852D70724D2B3650058AE0E /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70624D2B3650058AE0E /* RedirectHandler.swift */; };
+		1852D70924D2B3770058AE0E /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70824D2B3770058AE0E /* CachedResponseHandler.swift */; };
+		1852D70B24D2B37F0058AE0E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70A24D2B37F0058AE0E /* ProgressView.swift */; };
+		1852D70D24D2B38D0058AE0E /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70C24D2B38D0058AE0E /* SnackBar.swift */; };
+		1852D70F24D2B3950058AE0E /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70E24D2B3950058AE0E /* LoadingButton.swift */; };
+		1852D71124D2B48B0058AE0E /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */; };
+		1852D71324D2B4970058AE0E /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71224D2B4970058AE0E /* ColorsExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +59,36 @@
 		1852D6C524D2B1190058AE0E /* CellPayButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellPayButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1852D6CA24D2B1190058AE0E /* CellPayButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPayButtonTests.swift; sourceTree = "<group>"; };
 		1852D6CC24D2B1190058AE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1852D6D824D2B1BF0058AE0E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1852D6DA24D2B1E30058AE0E /* APICalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalling.swift; sourceTree = "<group>"; };
+		1852D6DC24D2B2090058AE0E /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		1852D6DE24D2B2270058AE0E /* CellPayMessageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPayMessageError.swift; sourceTree = "<group>"; };
+		1852D6E024D2B2430058AE0E /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1852D6E224D2B2650058AE0E /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		1852D6E424D2B2760058AE0E /* CellPayArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPayArguments.swift; sourceTree = "<group>"; };
+		1852D6E624D2B2920058AE0E /* CellPayBankAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPayBankAccountResponse.swift; sourceTree = "<group>"; };
+		1852D6E824D2B2A60058AE0E /* ConfirmPaymentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentResponse.swift; sourceTree = "<group>"; };
+		1852D6EA24D2B2B60058AE0E /* BasePaymentSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaymentSP.swift; sourceTree = "<group>"; };
+		1852D6EC24D2B2C60058AE0E /* PayMerchantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMerchantResponse.swift; sourceTree = "<group>"; };
+		1852D6EE24D2B2D60058AE0E /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		1852D6F024D2B2E60058AE0E /* StringContants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContants.swift; sourceTree = "<group>"; };
+		1852D6F224D2B2F30058AE0E /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		1852D6F424D2B3010058AE0E /* Luminous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luminous.swift; sourceTree = "<group>"; };
+		1852D6F624D2B30C0058AE0E /* LuminousNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuminousNetwork.swift; sourceTree = "<group>"; };
+		1852D6F824D2B3180058AE0E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1852D6FA24D2B31F0058AE0E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		1852D6FC24D2B3290058AE0E /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
+		1852D6FE24D2B3390058AE0E /* DataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		1852D70024D2B3430058AE0E /* EncodableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtensions.swift; sourceTree = "<group>"; };
+		1852D70224D2B34E0058AE0E /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		1852D70424D2B3570058AE0E /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		1852D70624D2B3650058AE0E /* RedirectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		1852D70824D2B3770058AE0E /* CachedResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedResponseHandler.swift; sourceTree = "<group>"; };
+		1852D70A24D2B37F0058AE0E /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		1852D70C24D2B38D0058AE0E /* SnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		1852D70E24D2B3950058AE0E /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		1852D71224D2B4970058AE0E /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +131,8 @@
 		1852D6BE24D2B1190058AE0E /* CellPayButton */ = {
 			isa = PBXGroup;
 			children = (
+				1852D6D724D2B18E0058AE0E /* Classes */,
+				1852D6D624D2B1830058AE0E /* Resources */,
 				1852D6BF24D2B1190058AE0E /* CellPayButton.h */,
 				1852D6C024D2B1190058AE0E /* Info.plist */,
 			);
@@ -84,6 +146,50 @@
 				1852D6CC24D2B1190058AE0E /* Info.plist */,
 			);
 			path = CellPayButtonTests;
+			sourceTree = "<group>";
+		};
+		1852D6D624D2B1830058AE0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1852D6D724D2B18E0058AE0E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1852D6D824D2B1BF0058AE0E /* APIClient.swift */,
+				1852D6DA24D2B1E30058AE0E /* APICalling.swift */,
+				1852D6DC24D2B2090058AE0E /* Webservices.swift */,
+				1852D6DE24D2B2270058AE0E /* CellPayMessageError.swift */,
+				1852D6E024D2B2430058AE0E /* UserInfo.swift */,
+				1852D6E224D2B2650058AE0E /* LoginResponse.swift */,
+				1852D6E424D2B2760058AE0E /* CellPayArguments.swift */,
+				1852D6E624D2B2920058AE0E /* CellPayBankAccountResponse.swift */,
+				1852D6E824D2B2A60058AE0E /* ConfirmPaymentResponse.swift */,
+				1852D6EA24D2B2B60058AE0E /* BasePaymentSP.swift */,
+				1852D6EC24D2B2C60058AE0E /* PayMerchantResponse.swift */,
+				1852D6EE24D2B2D60058AE0E /* FloatingLabelTextField.swift */,
+				1852D6F024D2B2E60058AE0E /* StringContants.swift */,
+				1852D6F224D2B2F30058AE0E /* Enum.swift */,
+				1852D6F424D2B3010058AE0E /* Luminous.swift */,
+				1852D6F624D2B30C0058AE0E /* LuminousNetwork.swift */,
+				1852D6F824D2B3180058AE0E /* Reachability.swift */,
+				1852D6FA24D2B31F0058AE0E /* APIError.swift */,
+				1852D6FC24D2B3290058AE0E /* APIUtils.swift */,
+				1852D6FE24D2B3390058AE0E /* DataExtensions.swift */,
+				1852D70024D2B3430058AE0E /* EncodableExtensions.swift */,
+				1852D70224D2B34E0058AE0E /* HttpMethod.swift */,
+				1852D70424D2B3570058AE0E /* HTTPHeader.swift */,
+				1852D70624D2B3650058AE0E /* RedirectHandler.swift */,
+				1852D70824D2B3770058AE0E /* CachedResponseHandler.swift */,
+				1852D70A24D2B37F0058AE0E /* ProgressView.swift */,
+				1852D70C24D2B38D0058AE0E /* SnackBar.swift */,
+				1852D70E24D2B3950058AE0E /* LoadingButton.swift */,
+				1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */,
+				1852D71224D2B4970058AE0E /* ColorsExtensions.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +254,7 @@
 				TargetAttributes = {
 					1852D6BB24D2B1190058AE0E = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					1852D6C424D2B1190058AE0E = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -195,6 +302,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1852D70724D2B3650058AE0E /* RedirectHandler.swift in Sources */,
+				1852D70524D2B3570058AE0E /* HTTPHeader.swift in Sources */,
+				1852D6DD24D2B2090058AE0E /* Webservices.swift in Sources */,
+				1852D6F524D2B3010058AE0E /* Luminous.swift in Sources */,
+				1852D6E924D2B2A60058AE0E /* ConfirmPaymentResponse.swift in Sources */,
+				1852D71124D2B48B0058AE0E /* TextFieldExtension.swift in Sources */,
+				1852D6E524D2B2760058AE0E /* CellPayArguments.swift in Sources */,
+				1852D70324D2B34E0058AE0E /* HttpMethod.swift in Sources */,
+				1852D6E724D2B2920058AE0E /* CellPayBankAccountResponse.swift in Sources */,
+				1852D70F24D2B3950058AE0E /* LoadingButton.swift in Sources */,
+				1852D6F324D2B2F30058AE0E /* Enum.swift in Sources */,
+				1852D71324D2B4970058AE0E /* ColorsExtensions.swift in Sources */,
+				1852D6F924D2B3180058AE0E /* Reachability.swift in Sources */,
+				1852D6F724D2B30C0058AE0E /* LuminousNetwork.swift in Sources */,
+				1852D6EF24D2B2D60058AE0E /* FloatingLabelTextField.swift in Sources */,
+				1852D70924D2B3770058AE0E /* CachedResponseHandler.swift in Sources */,
+				1852D6DF24D2B2270058AE0E /* CellPayMessageError.swift in Sources */,
+				1852D6F124D2B2E60058AE0E /* StringContants.swift in Sources */,
+				1852D6E324D2B2650058AE0E /* LoginResponse.swift in Sources */,
+				1852D70D24D2B38D0058AE0E /* SnackBar.swift in Sources */,
+				1852D6EB24D2B2B60058AE0E /* BasePaymentSP.swift in Sources */,
+				1852D70124D2B3430058AE0E /* EncodableExtensions.swift in Sources */,
+				1852D6FF24D2B3390058AE0E /* DataExtensions.swift in Sources */,
+				1852D6D924D2B1BF0058AE0E /* APIClient.swift in Sources */,
+				1852D6E124D2B2430058AE0E /* UserInfo.swift in Sources */,
+				1852D6DB24D2B1E30058AE0E /* APICalling.swift in Sources */,
+				1852D6ED24D2B2C60058AE0E /* PayMerchantResponse.swift in Sources */,
+				1852D6FB24D2B31F0058AE0E /* APIError.swift in Sources */,
+				1852D6FD24D2B3290058AE0E /* APIUtils.swift in Sources */,
+				1852D70B24D2B37F0058AE0E /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +477,7 @@
 		1852D6D124D2B1190058AE0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cellpay.CellPayButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +502,7 @@
 		1852D6D224D2B1190058AE0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +526,7 @@
 		1852D6D424D2B1190058AE0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CellPayButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +544,7 @@
 		1852D6D524D2B1190058AE0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CellPayButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
