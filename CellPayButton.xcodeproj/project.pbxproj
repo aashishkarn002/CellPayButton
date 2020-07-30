@@ -44,6 +44,7 @@
 		1852D71724D2BC610058AE0E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71624D2BC610058AE0E /* LoginVC.swift */; };
 		1852D71924D2BC750058AE0E /* MerchantPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71824D2BC750058AE0E /* MerchantPaymentVC.swift */; };
 		1852D71B24D2BC850058AE0E /* ConfirmPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71A24D2BC850058AE0E /* ConfirmPaymentVC.swift */; };
+		1852D71F24D2BEC20058AE0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1852D71E24D2BEC20058AE0E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		1852D71624D2BC610058AE0E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1852D71824D2BC750058AE0E /* MerchantPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantPaymentVC.swift; sourceTree = "<group>"; };
 		1852D71A24D2BC850058AE0E /* ConfirmPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentVC.swift; sourceTree = "<group>"; };
+		1852D71E24D2BEC20058AE0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				1852D71424D2BC210058AE0E /* CellPayStoryBoard.storyboard */,
+				1852D71E24D2BEC20058AE0E /* Images.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1852D71524D2BC210058AE0E /* CellPayStoryBoard.storyboard in Resources */,
+				1852D71F24D2BEC20058AE0E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
