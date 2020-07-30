@@ -40,6 +40,10 @@
 		1852D70F24D2B3950058AE0E /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D70E24D2B3950058AE0E /* LoadingButton.swift */; };
 		1852D71124D2B48B0058AE0E /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */; };
 		1852D71324D2B4970058AE0E /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71224D2B4970058AE0E /* ColorsExtensions.swift */; };
+		1852D71524D2BC210058AE0E /* CellPayStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1852D71424D2BC210058AE0E /* CellPayStoryBoard.storyboard */; };
+		1852D71724D2BC610058AE0E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71624D2BC610058AE0E /* LoginVC.swift */; };
+		1852D71924D2BC750058AE0E /* MerchantPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71824D2BC750058AE0E /* MerchantPaymentVC.swift */; };
+		1852D71B24D2BC850058AE0E /* ConfirmPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852D71A24D2BC850058AE0E /* ConfirmPaymentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,10 @@
 		1852D70E24D2B3950058AE0E /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 		1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		1852D71224D2B4970058AE0E /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
+		1852D71424D2BC210058AE0E /* CellPayStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CellPayStoryBoard.storyboard; sourceTree = "<group>"; };
+		1852D71624D2BC610058AE0E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1852D71824D2BC750058AE0E /* MerchantPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantPaymentVC.swift; sourceTree = "<group>"; };
+		1852D71A24D2BC850058AE0E /* ConfirmPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,7 @@
 		1852D6D624D2B1830058AE0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1852D71424D2BC210058AE0E /* CellPayStoryBoard.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -188,6 +197,9 @@
 				1852D70E24D2B3950058AE0E /* LoadingButton.swift */,
 				1852D71024D2B48B0058AE0E /* TextFieldExtension.swift */,
 				1852D71224D2B4970058AE0E /* ColorsExtensions.swift */,
+				1852D71624D2BC610058AE0E /* LoginVC.swift */,
+				1852D71824D2BC750058AE0E /* MerchantPaymentVC.swift */,
+				1852D71A24D2BC850058AE0E /* ConfirmPaymentVC.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1852D71524D2BC210058AE0E /* CellPayStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1852D71724D2BC610058AE0E /* LoginVC.swift in Sources */,
 				1852D70724D2B3650058AE0E /* RedirectHandler.swift in Sources */,
 				1852D70524D2B3570058AE0E /* HTTPHeader.swift in Sources */,
 				1852D6DD24D2B2090058AE0E /* Webservices.swift in Sources */,
@@ -321,6 +335,7 @@
 				1852D6DF24D2B2270058AE0E /* CellPayMessageError.swift in Sources */,
 				1852D6F124D2B2E60058AE0E /* StringContants.swift in Sources */,
 				1852D6E324D2B2650058AE0E /* LoginResponse.swift in Sources */,
+				1852D71B24D2BC850058AE0E /* ConfirmPaymentVC.swift in Sources */,
 				1852D70D24D2B38D0058AE0E /* SnackBar.swift in Sources */,
 				1852D6EB24D2B2B60058AE0E /* BasePaymentSP.swift in Sources */,
 				1852D70124D2B3430058AE0E /* EncodableExtensions.swift in Sources */,
@@ -328,6 +343,7 @@
 				1852D6D924D2B1BF0058AE0E /* APIClient.swift in Sources */,
 				1852D6E124D2B2430058AE0E /* UserInfo.swift in Sources */,
 				1852D6DB24D2B1E30058AE0E /* APICalling.swift in Sources */,
+				1852D71924D2BC750058AE0E /* MerchantPaymentVC.swift in Sources */,
 				1852D6ED24D2B2C60058AE0E /* PayMerchantResponse.swift in Sources */,
 				1852D6FB24D2B31F0058AE0E /* APIError.swift in Sources */,
 				1852D6FD24D2B3290058AE0E /* APIUtils.swift in Sources */,
