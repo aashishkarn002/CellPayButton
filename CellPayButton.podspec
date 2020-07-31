@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.0'
   s.source_files = 'CellPayButton/Classes/**/*.{swift}'
-  s.resources = 'CellPayButton/Resources/**/*.{storyboard,xcassets}'
-  s.resource_bundle = { 'CellPayButton' => 'CellPayButton/Resources/**/*.storyboard' }
+  s.resource_bundle = { 'CellPayButton' => '/Resources/**/*.{storyboard,xcassets}' }
   
   
 end
